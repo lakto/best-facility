@@ -33,7 +33,7 @@ excerpt: # used for page excerpts and META (will be overwritten if SEO used belo
 author: shane-robinson # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
 eleventyNavigation: # Required if want to display in Main Nav Bar
   key: main # "main" is required
-  title: Welcome # as it will appear in the nav
+  title: Willkommen # as it will appear in the nav
   order: 1 # order to display in the nav (index = 1)
 seo: # SEO values are used for OG and will overwrite 'title' and 'excerpt' above
   title:
