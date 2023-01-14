@@ -30,7 +30,7 @@ heroSettings:
   subheadingText: Das Team von Best Facility überzeugt Sie durch kompetenten Service, professionelle Arbeiten und einem ausgezeichneten Preis-/Leistungs-Verhältnis.
   subheadingTextColor: # Leave empty to inherit headingTextColor or default (text-white) or use any text-[color]-[xxx]
   buttonText: Kontaktieren Sie uns # no button generated if left blank
-  buttonURL: /contact/ # full url required. Example: https://thisdomain.com/somepage/
+  buttonURL: /kontakt/ # full url required. Example: https://thisdomain.com/somepage/
   buttonTextColor: # leave blank to inherit from /src/_data/colors.buttonCustom or buttonDefault
   buttonBgColor: # leave blank to inherit from /src/_data/colors.buttonCustom.bg or buttonDefault.bg
   buttonBgHover: # leave blank to inherit from /src/_data/colors.buttonCustom.bgHover or buttonDefault.bgHover
