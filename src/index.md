@@ -49,7 +49,7 @@ Version 1.0.0 morphed into a fully-configurable text-based CMS for managing smal
 
 {% wrap "mt-4 bg-indigo-100 border border-indigo-300 text-lg italic rounded-full text-center" %}
 
-**[START HERE:](/blog/) The [Blog Posts](/blog/) cover the main features of the system.**
+<!-- **[START HERE:](/blog/) The [Blog Posts](/blog/) cover the main features of the system.** -->
 
 {% endwrap %}
 
