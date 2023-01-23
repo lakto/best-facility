@@ -26,7 +26,7 @@
     "debug": "set DEBUG=* & eleventy",
     "dev:tailwind": "npx tailwindcss -i src/assets/css/tailwind.css -o dist/css/styles.css --watch",
     "dev:eleventy": "npx @11ty/eleventy --serve",
-    "dev": "npm-run-all clean --parallel dev:*",
+    "dev": "npm-run-all clean --parallel dev:*  && cp  src/assets/scripts/main.js dist/assets/",
     "build:tailwind": "npx tailwindcss -i src/assets/css/tailwind.css -o dist/css/styles.css --minify",
     "build:eleventy": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy --pathprefix='best-facility'",
     "build": "NODE_ENV=production npm-run-all clean build:*"
