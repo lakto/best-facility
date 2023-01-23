@@ -23,9 +23,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlight)
 
 
-  eleventyConfig.addPlugin(pluginSvgSprite, {
-    path: "./src/assets/svg",
-    globalClasses: "fill-current"
+	eleventyConfig.addPlugin(pluginSvgSprite, {
+		path: "./src/assets/svg",
+		globalClasses: "fill-current"
 	})
 
 	/**
@@ -40,9 +40,9 @@ module.exports = function (eleventyConfig) {
 	 * Transforms
 	 * @link https://www.11ty.io/docs/config/#transforms
    Object.keys(transforms).forEach((transformName) => {
-     eleventyConfig.addTransform(transformName, transforms[transformName])
-    })
-    */
+	 eleventyConfig.addTransform(transformName, transforms[transformName])
+	})
+	*/
 
 	/**
 	 * Shortcodes
@@ -178,18 +178,18 @@ module.exports = function (eleventyConfig) {
 	// 			},
 	// 		},
 	// 	},
-		// Set local server 404 fallback
-		// callbacks: {
-		// 	ready: function (err, browserSync) {
-		// 		const content_404 = fs.readFileSync('dist/404.html')
+	// Set local server 404 fallback
+	// callbacks: {
+	// 	ready: function (err, browserSync) {
+	// 		const content_404 = fs.readFileSync('dist/404.html')
 
-		// 		browserSync.addMiddleware('*', (req, res) => {
-		// 			// Provides the 404 content without redirect.
-		// 			res.write(content_404)
-		// 			res.end()
-		// 		})
-		// 	},
-		// },
+	// 		browserSync.addMiddleware('*', (req, res) => {
+	// 			// Provides the 404 content without redirect.
+	// 			res.write(content_404)
+	// 			res.end()
+	// 		})
+	// 	},
+	// },
 	// })
 
 	return {
