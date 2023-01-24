@@ -1,6 +1,6 @@
 ---
 # This is a full listing of available Frontmatter options, available for any content (.md) file.
-title: Best Facility GmbH
+title: Best Facility
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
 author: shane-robinson # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
