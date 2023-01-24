@@ -72,41 +72,41 @@ module.exports = function (eleventyConfig) {
 	 * If "false" or NULL it will be published in PRODUCTION.
 	 * Every Post will ALWAYS be published in DEVELOPMENT so you can preview locally.
 	 */
-	eleventyConfig.addCollection('post', (collection) => {
-		if (process.env.ELEVENTY_ENV !== 'production')
-			return [...collection.getFilteredByGlob('./src/posts/*.md')]
-		else
-			return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft)
-	})
+	// eleventyConfig.addCollection('post', (collection) => {
+	// 	if (process.env.ELEVENTY_ENV !== 'production')
+	// 		return [...collection.getFilteredByGlob('./src/posts/*.md')]
+	// 	else
+	// 		return [...collection.getFilteredByGlob('./src/posts/*.md')].filter((post) => !post.data.draft)
+	// })
 
 	// TAGLIST used from the official eleventy-base-blog  https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js
-	eleventyConfig.addCollection('tagList', function (collection) {
-		let tagSet = new Set()
-		collection.getAll().forEach(function (item) {
-			if ('tags' in item.data) {
-				let tags = item.data.tags
+	// eleventyConfig.addCollection('tagList', function (collection) {
+	// 	let tagSet = new Set()
+	// 	collection.getAll().forEach(function (item) {
+	// 		if ('tags' in item.data) {
+	// 			let tags = item.data.tags
 
-				tags = tags.filter(function (item) {
-					switch (item) {
-						// this list should match the `filter` list in tags.njk
-						case 'authors':
-						case 'pages':
-						case 'post':
-							return false
-					}
+	// 			tags = tags.filter(function (item) {
+	// 				switch (item) {
+	// 					// this list should match the `filter` list in tags.njk
+	// 					case 'authors':
+	// 					case 'pages':
+	// 					case 'post':
+	// 						return false
+	// 				}
 
-					return true
-				})
+	// 				return true
+	// 			})
 
-				for (const tag of tags) {
-					tagSet.add(tag)
-				}
-			}
-		})
+	// 			for (const tag of tags) {
+	// 				tagSet.add(tag)
+	// 			}
+	// 		}
+	// 	})
 
-		// returning an array in addCollection works in Eleventy 0.5.3
-		return [...tagSet]
-	})
+	// 	// returning an array in addCollection works in Eleventy 0.5.3
+	// 	return [...tagSet]
+	// })
 
 	/**
 	 * Custom Watch Targets
