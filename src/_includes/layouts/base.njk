@@ -35,11 +35,13 @@
         </figure>
       {% endif %}
 
+      {% if not hero %}
       <div class="flex-grow max-w-full">
         <main class="block py-12" id="content">
           {{ content | safe }}
         </main>
       </div>
+      {% endif %}
 
       {% include "partials/footer.njk" %}
     </div>

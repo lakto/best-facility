@@ -1,9 +1,9 @@
 ---
 # This is a full listing of available Frontmatter options, available for any content (.md) file.
-title: Best Facility
+title: Wir unterhalten und pflegen ihre Liegenschaft
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
-author: shane-robinson # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
+author: best-facility # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
 eleventyNavigation: # Required if want to display in Main Nav Bar
   key: main # "main" is required
   title: Willkommen # as it will appear in the nav
@@ -38,12 +38,4 @@ heroSettings:
 
 ---
 
-Hier kann dein Text stehen. Eine Begrüssung, kurze Info zu verschiedenen Arbeiten.
-
-## Zwischentitel
-
-... sind auch möglich, wie auch Aufzählungen:
-
-* Punkt 1
-* Punkt 2
-* Punkt 3
+<!-- Willkommen auf der Webseite von Best Facility GmbH! Wir sind ein Unternehmen, das sich auf die Erbringung von Dienstleistungen rund um Ihre Liegenschaft spezialisiert hat. Diese Dienstleistungen umfassen Abwartsdienste, Reinigung von Gebäuden einschliesslich Parkgaragen, Gartenarbeiten und Schneeräumungen. Wir sind in der Region Oftringen tätig und arbeiten eng mit unseren Kunden zusammen, um ihre Anforderungen zu erfüllen. Lassen Sie uns wissen, wie wir Ihnen helfen können und zögern Sie nicht, uns zu [kontaktieren](/kontakt). -->
