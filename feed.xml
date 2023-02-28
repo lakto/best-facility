@@ -3,8 +3,8 @@
   <title>Best Facility GmbH</title>
   <subtitle>Wir unterhalten und pflegen Ihre Liegenschaft</subtitle>
   <link href="http://localhost:8080"/>
-  <link href="http://localhost:8080/best-facility/feed.xml" rel="self"/>
-  <updated>2023-02-28T22:07:50Z</updated>
+  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <updated>2023-02-28T22:33:04Z</updated>
   <id>http://localhost:8080</id>
   <author>
     <name>Patrick Kilchenmann</name>
