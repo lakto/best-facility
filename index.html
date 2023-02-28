@@ -176,18 +176,18 @@ pre[class*="language-"] {
               </svg>
           </a>
         </div>
-        <div class="hidden sm:ml-6 sm:flex sm:items-center">
+        <div class="ml-8 flex justify-end">
           
           
-            <a  alt="Link to Willkommen" class=" px-3 py-2 text-sm font-medium rounded-md items-center  bg-gray-100 text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a  alt="Link to Willkommen" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  bg-gray-100 text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Willkommen
             </a>
           
-            <a href="/best-facility/ueber-uns/" alt="Link to Über uns" class=" px-3 py-2 text-sm font-medium rounded-md items-center  text-gray-700 hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a href="/best-facility/ueber-uns/" alt="Link to Über uns" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  text-gray-700 hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Über uns
             </a>
           
-            <a href="/best-facility/kontakt/" alt="Link to Kontakt" class=" px-3 py-2 text-sm font-medium rounded-md items-center  text-gray-700 hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a href="/best-facility/kontakt/" alt="Link to Kontakt" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  text-gray-700 hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Kontakt
             </a>
           
@@ -197,19 +197,7 @@ pre[class*="language-"] {
       
 
       
-      <div class="flex items-center -mr-2 sm:hidden">
-        
-        <button @click="open = !open" class="inline-flex items-center justify-center p-2 text-gray-500 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-teal-100 focus:outline-none focus:text-gray-500 focus:text-gray-500" x-bind:aria-label="open ? 'Close main menu' : 'Main menu'" aria-label="Main menu" x-bind:aria-expanded="open">
-          
-          <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': open, 'block': !open }" class="block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-          
-          <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': !open, 'block': open }" class="hidden w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
+      
     </div>
   </div>
 
