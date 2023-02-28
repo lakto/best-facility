@@ -37,5 +37,3 @@ heroSettings:
   buttonBorder: # leave blank to inherit from /src/_data/colors.buttonCustom.border or buttonDefault.border
 
 ---
-
-<!-- Willkommen auf der Webseite von Best Facility GmbH! Wir sind ein Unternehmen, das sich auf die Erbringung von Dienstleistungen rund um Ihre Liegenschaft spezialisiert hat. Diese Dienstleistungen umfassen Abwartsdienste, Reinigung von Gebäuden einschliesslich Parkgaragen, Gartenarbeiten und Schneeräumungen. Wir sind in der Region Oftringen tätig und arbeiten eng mit unseren Kunden zusammen, um ihre Anforderungen zu erfüllen. Lassen Sie uns wissen, wie wir Ihnen helfen können und zögern Sie nicht, uns zu [kontaktieren](/kontakt). -->

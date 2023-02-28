@@ -7,15 +7,15 @@ eleventyNavigation:
   title: Kontakt  # as it will appear in the nav
   order: 3        # order to display in the nav
 seo:
-  title: Braucht ihre Liegenschaft eine Pflege?
-  description: Kontaktieren Sie uns — ein Anruf oder eine eMail genügt
+  title: Zögern Sie nicht uns anzufragen
+  description:  Gerne pflegen und unterhalten wir auch Ihre Liegenschaft. Bei speziellen Bedürfnissen finden wir gemeinsam eine Lösung.
 ---
 
 <div class="relative bg-white">
   <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
     <div class="px-4 py-4 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-8 xl:pr-12">
       <div class="max-w-lg mx-auto">
-        <h2 class="text-3xl font-extrabold leading-8 tracking-tight text-gray-600 sm:text-3xl sm:leading-4">
+        <h2 class="text-3xl font-extrabold leading-8 tracking-tight text-green-600 sm:text-3xl sm:pt-0">
           {{ meta.siteName }}
         </h2>
         <dl class="mt-8 text-base leading-6 text-gray-500">
@@ -50,13 +50,22 @@ seo:
               </span>
             </dd>
           </div>
+          <div class="border-t-2 mt-4">
+            <dt><h3 class="pt-4">Öffnungszeiten</h3></dt>
+            <dd class="flex">
+              <p>
+                Montag - Freitag, 07.00 – 18.00<br>
+                Samstag / Sonntag, 24h-Pikett
+              </p>
+            </dd>
+          </div>
         </dl>
       </div>
     </div>
 
-    <div class="bg-white lg:col-span-3">
+    <div class="bg-white col-span-3">
       {# <div class="max-w-lg mx-auto lg:max-w-none"> #}
-        <a href="https://goo.gl/maps/ZLkvGyW599moxhFY7" target="_blank"><img class="object-cover h-auto w-full" src="/assets/images/map.png" /></a>
+        <a href="https://goo.gl/maps/ZLkvGyW599moxhFY7" target="_blank"><img class="object-cover h-full w-full" src="/assets/images/map.png" /></a>
         {# <div class="p-4 italic text-gray-600 bg-indigo-100 border rounded-lg border-indego-300">This form uses the <a class="font-semibold text-indigo-700 underline" href="https://docs.netlify.com/forms/spam-filters/#extra-spam-prevention">basic spam and recaptcha features provided by Netlify</a> . But you could wire in your own form validation if you like. Take a look at <a class="font-semibold text-indigo-700 underline" href="https://github.com/mattkingshott/iodine">Iodine.js</a> if you don't already have a fave form validator.</div> #}
       {# </div> #}
     </div>
