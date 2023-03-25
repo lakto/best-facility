@@ -37,30 +37,30 @@ module.exports = {
 	 */
 	navDefault: {
 		barBg: 'bg-white',
-		text: 'text-teal-500',
-		textActive: 'text-teal-600',
-		textHover: 'text-teal-600',
-		textActiveBg: 'bg-teal-100',
-		textFocus: 'text-teal-500',
+		text: 'text-fuchsia-500',
+		textActive: 'text-fuchsia-600',
+		textHover: 'text-fuchsia-600',
+		textActiveBg: 'bg-fuchsia-100',
+		textFocus: 'text-fuchsia-500',
 		mobileBg: '',
-		mobileBgActive: 'bg-teal-700',
-		mobileBgHover: 'bg-teal-100',
-		mobileBgFocus: 'bg-teal-300',
-		mobileText: 'text-teal-500',
-		mobileTextActive: 'text-teal-300',
-		mobileTextHover: 'text-teal-600',
-		mobileTextFocus: 'text-teal-700',
-		mobileButton: 'text-teal-500',
-		mobileButtonHover: 'text-teal-600',
-		mobileButtonBgHover: 'bg-teal-100',
+		mobileBgActive: 'bg-fuchsia-700',
+		mobileBgHover: 'bg-fuchsia-100',
+		mobileBgFocus: 'bg-fuchsia-300',
+		mobileText: 'text-fuchsia-500',
+		mobileTextActive: 'text-fuchsia-300',
+		mobileTextHover: 'text-fuchsia-600',
+		mobileTextFocus: 'text-fuchsia-700',
+		mobileButton: 'text-fuchsia-500',
+		mobileButtonHover: 'text-fuchsia-600',
+		mobileButtonBgHover: 'bg-fuchsia-100',
 	},
 	/**
 	 *  NOTE: You MUST keep all Custom variable keys, even if their values are empty and you don't intend to use them.
 	 *  If you delete any variable keys, 11ty won't work.
 	 */
 	navCustom: {
-		barBg: '',
-		text: 'text-gray-700',
+		barBg: 'bg-green-600',
+		text: 'text-white',
 		textActive: 'text-gray-800',
 		textHover: 'text-gray-800',
 		textActiveBg: 'bg-gray-100',
@@ -82,9 +82,9 @@ module.exports = {
 	 * ===== Logo / SVG =====
 	 */
 	logoDefault: {
-		desktop: 'text-teal-500',
-		mobile: 'text-teal-500',
-		hover: 'text-teal-600',
+		desktop: 'text-fuchsia-500',
+		mobile: 'text-fuchsia-500',
+		hover: 'text-fuchsia-600',
 	},
 	logoCustom: {
 		desktop: 'text-gray-700',
@@ -99,7 +99,7 @@ module.exports = {
 	 * For content headings added by Editors in .md files,
 	 * manage those in /src/assets/css/tailwind.css
 	 */
-	headingsDefault: 'text-teal-500',
+	headingsDefault: 'text-fuchsia-500',
 	headingsCustom: 'text-gray-700',
 
 	/**
@@ -149,9 +149,9 @@ module.exports = {
 	buttonDefault: {
 		text: 'text-white',
 		textHover: 'text-white',
-		bg: 'bg-teal-700',
-		bgHover: 'bg-teal-700',
-		border: 'border-teal-900',
+		bg: 'bg-fuchsia-600',
+		bgHover: 'bg-fuchsia-700',
+		border: 'border-fuchsia-900',
 	},
 	buttonCustom: {
 		text: '',
@@ -231,7 +231,7 @@ module.exports = {
 	 */
 	footerDefault: {
 		barBg: 'bg-white',
-		text: 'text-teal-500',
+		text: 'text-fuchsia-500',
 	},
 	footerCustom: {
 		barBg: 'bg-gray-900',
@@ -242,8 +242,8 @@ module.exports = {
 	 * === Footer social icons
 	 * Manage the Author social icons above in the Author section
 	 */
-	socialIconsDefault: 'text-teal-400',
-	socialIconsHoverDefault: 'text-teal-500',
+	socialIconsDefault: 'text-fuchsia-400',
+	socialIconsHoverDefault: 'text-fuchsia-500',
 
 	socialIconsCustom: 'text-gray-100',
 	socialIconsHoverCustom: 'text-gray-200',

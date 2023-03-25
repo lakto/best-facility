@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-	@apply font-semibold text-green-700;
+	@apply font-semibold text-fuchsia-600;
 }
 h1 {
 	@apply text-4xl;
@@ -27,7 +27,7 @@ p a,
 li a,
 blockquote a,
 dd a {
-	@apply font-medium text-green-700;
+	@apply font-medium text-fuchsia-600;
 }
 p {
 	@apply mt-4;
@@ -55,3 +55,21 @@ pre code {
 @tailwind components;
 
 @tailwind utilities;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p a,
+li a,
+blockquote a,
+dd a {
+	/* color: #d10cc0 !important; */
+}
+
+nav {
+	/* background-color: #00b050 !important; */
+}
