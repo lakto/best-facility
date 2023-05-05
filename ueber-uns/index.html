@@ -25,6 +25,7 @@
 <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-16x16.png" sizes="16x16">
 <link type="application/atom+xml" rel="alternate" href="http://localhost:8080/feed.xml" title="Best Facility GmbH XML Feed">
+<script src="https://kit.fontawesome.com/2bfd7b9a2b.js" crossorigin="anonymous"></script>
     <style>
       /**
  * okaidia theme for JavaScript, CSS and HTML
@@ -162,10 +163,12 @@ pre[class*="language-"] {
       <div class="flex">
         <div class="flex items-center">
           
+          
+          
           <a aria-label="Mobile Logo" href="/" class="block md:hidden text-gray-700 hover:text-gray-800" alt="Mobile Logo">
-            <svg class="fill-current fill-current w-16 hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}" aria-describedby="symbol-logo-mobile-desc" aria-labelledby="symbol-logo-mobile-desc" role="group">
-                  <desc id="symbol-logo-mobile-desc-content">The Mobile Logo</desc>
-                  <use xlink:href="#svg-logo-mobile"></use>
+            <svg class="fill-current fill-current h-6 hover:{{ colors.logoCustom.hover or colors.logoDefault.hover }}" aria-describedby="symbol-logo-desc" aria-labelledby="symbol-logo-desc" role="group">
+                  <desc id="symbol-logo-desc-content">The Mobile Logo</desc>
+                  <use xlink:href="#svg-logo"></use>
               </svg>
           </a>
           
@@ -176,18 +179,18 @@ pre[class*="language-"] {
               </svg>
           </a>
         </div>
-        <div class="ml-8 flex justify-end">
+        <div class="hidden sm:ml-6 sm:flex sm:items-center">
           
           
-            <a href="/" alt="Link to Willkommen" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  text-white hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a href="/" alt="Link to Willkommen" class=" px-3 py-2 text-sm font-medium rounded-md items-center  text-white hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Willkommen
             </a>
           
-            <a  alt="Link to Über uns" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  bg-gray-100 text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a  alt="Link to Über uns" class=" px-3 py-2 text-sm font-medium rounded-md items-center  bg-gray-100 text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Über uns
             </a>
           
-            <a href="/kontakt/" alt="Link to Kontakt" class="px-3 py-2 my-auto text-sm font-medium rounded-md items-center  text-white hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
+            <a href="/kontakt/" alt="Link to Kontakt" class=" px-3 py-2 text-sm font-medium rounded-md items-center  text-white hover:text-gray-800  focus:outline-none focus:text-gray-500 transition duration-150 ease-in-out">
               Kontakt
             </a>
           
@@ -197,7 +200,19 @@ pre[class*="language-"] {
       
 
       
-      
+      <div class="flex items-center -mr-2 sm:hidden">
+        
+        <button @click="open = !open" class="inline-flex items-center justify-center p-2 text-white transition duration-150 ease-in-out rounded-md hover:text-white hover:bg-fuchsia-100 focus:outline-none focus:text-white focus:text-white" x-bind:aria-label="open ? 'Close main menu' : 'Main menu'" aria-label="Main menu" x-bind:aria-expanded="open">
+          
+          <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': open, 'block': !open }" class="block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          
+          <svg x-state:on="Menu open" x-state:off="Menu closed" :class="{ 'hidden': !open, 'block': open }" class="hidden w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 
@@ -205,15 +220,15 @@ pre[class*="language-"] {
     <div class="pt-2 pb-3">
       
       
-        <a href="/" alt="Link to Willkommen" class="block pl-4 pr-4 py-2  hover:text-gray-600 hover:bg-gray-100   text-base font-medium  text-gray-500  focus:outline-none focus:text-gray-700 focus:bg-gray-300 transition duration-150 ease-in-out">
+        <a href="/" alt="Link to Willkommen" class="block pl-4 pr-4 py-2  hover:text-gray-800 hover:bg-green-200   text-base font-medium  text-white  focus:outline-none focus:text-gray-500 focus:bg-green-950 transition duration-150 ease-in-out">
           Willkommen
         </a>
       
-        <a  alt="Link to Über uns" class="block pl-4 pr-4 py-2 bg-gray-700 text-gray-300 text-base font-medium  text-gray-500  focus:outline-none focus:text-gray-700 focus:bg-gray-300 transition duration-150 ease-in-out">
+        <a  alt="Link to Über uns" class="block pl-4 pr-4 py-2 bg-white text-gray-800 text-base font-medium  text-white  focus:outline-none focus:text-gray-500 focus:bg-green-950 transition duration-150 ease-in-out">
           Über uns
         </a>
       
-        <a href="/kontakt/" alt="Link to Kontakt" class="block pl-4 pr-4 py-2  hover:text-gray-600 hover:bg-gray-100   text-base font-medium  text-gray-500  focus:outline-none focus:text-gray-700 focus:bg-gray-300 transition duration-150 ease-in-out">
+        <a href="/kontakt/" alt="Link to Kontakt" class="block pl-4 pr-4 py-2  hover:text-gray-800 hover:bg-green-200   text-base font-medium  text-white  focus:outline-none focus:text-gray-500 focus:bg-green-950 transition duration-150 ease-in-out">
           Kontakt
         </a>
       
@@ -239,32 +254,69 @@ pre[class*="language-"] {
 
   
 
-  <p>Die Firma Best Facility GmbH mit Sitz in Aarburg, wurde im Sommer 2018 gegründet. Die klassische Hauswartung und deren technische Betreuung, sowie die Umgebungspflege werden seither laufend ausgebaut.</p>
-<p>Wir dürfen mehrere Liegenschafts- und Immobilienverwaltungen sowie Industriebetriebe und ein Tenniscenter zu unseren Kunden zählen.</p>
-<p>Wir bieten unseren Vertragspartnern einen rundum 24-Stunden Pikett-Dienst an, um auf allfällige Vorkommnisse schnellstmöglich zu reagieren.</p>
-<!-- Interessieren Sie sich für eine Offerte? Treten Sie mit uns in **[Kontakt](/kontakt)**, wir sind gerne in folgenden Bereichen für Sie da: -->
-<p>Als professioneller Hauswartungsbetrieb bieten wir einen kompletten rundum Service in Sachen Reinigung an. Wir pflegen die Werterhaltung und kümmern uns um den Unterhalt, die Sauberkeit sowie die Ordnung des Innen- wie auch des Aussenbereichs Ihrer Immobilie.</p>
-<p>Folgendes ist für uns besonders wichtig beim Unterhalt und der Betreuung Ihrer Liegenschaft:</p>
+  
+<p>
+Die Firma Best Facility GmbH mit Sitz in Aarburg, wurde im Sommer 2018 gegründet. 
+Die klassische Hauswartung und deren technische Betreuung, sowie die Umgebungspflege 
+werden seither laufend ausgebaut. Dabei dürfen wir mehrere Liegenschafts- und Immobilienverwaltungen, 
+wie auch Industriebetriebe und ein Tenniscenter zu unseren Kunden zählen.
+</p>
+
+<p>
+Wir bieten unseren Vertragspartnern einen rundum 24-Stunden Pikett-Dienst an, um auf allfällige 
+Vorkommnisse schnellstmöglich zu reagieren und bieten als professioneller Hauswartungsbetrieb einen 
+kompletten Service in Sachen Reinigung an. Wir pflegen die Werterhaltung und kümmern uns um 
+den Unterhalt, die Sauberkeit und Ordnung des Innen-, wie auch des Aussenbereichs Ihrer Immobilie.
+</p>
+<p>
+Folgendes ist für uns besonders wichtig beim Unterhalt und der Betreuung Ihrer Liegenschaft:
 <ul>
-<li>Werterhaltung und Optik</li>
-<li>Sauberkeit und Hygiene</li>
+  <li>Werterhaltung und Optik</li>
+  <li>Sauberkeit und Hygiene</li>
 </ul>
-<p>Das Team von Best Facility freut sich, Ihnen zusätzlich mehr Lebenskomfort bieten zu können und einen Beitrag zur Werterhaltung Ihrer Liegenschaft zu leisten.</p>
-<h2>Hauswartungen</h2>
-<p>Die Hauswartung und deren Pflichten erfolgen in der Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Auch bei Notfällen sind wir für Sie 24 Stunden auf Abruf.</p>
+</p>
+<p>
+Das Team von Best Facility freut sich, Ihnen zusätzlich mehr Lebenskomfort bieten zu können und einen 
+Beitrag zur Werterhaltung Ihrer Liegenschaft zu leisten. Unser Angebot beinhaltet folgende Bereiche:
+</p>
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== 1 ? selected = 1 : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">Hauswartungen</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container1"
+    x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light px-9 pb-5 text-justify">
+        <p>Die Hauswartung und deren Pflichten erfolgen in der Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Auch bei Notfällen sind wir für Sie 24 Stunden auf Abruf.</p>
 <p><strong>Unsere Leistungen:</strong></p>
 <ul>
 <li>Hauswartung- und Reinigungsarbeiten im Innen- und Aussenbereich<br>
 (inkl. Keller, technischen Räumen, der Einstellhalle und den Besucher-Parkplätzen)</li>
-<li>Betreuung von technischen Anlagen (z.B. Heizungen oder Entsalzungsanlagen)</li>
+<li>Betreuung von technischen Anlagen (z.B. Heizungen oder Entkalkungsanlagen)</li>
 <li>Ausführung kleiner Reparaturen sowie Instandhaltung</li>
 <li>Koordination mit Handwerkern und Lieferanten</li>
 <li>Kontrolle der Zählstände von Wasser, Heizöl, etc.</li>
 <li>Winterdienst (Schneeräumung, Streueinsätze)</li>
 <li>24 Stunden Pikettdienst</li>
 </ul>
-<h2>Umgebungspflege</h2>
-<p>Der klassische Gartenunterhalt präsentiert das Erscheinungsbild Ihrer Liegenschaft. Wir hegen und pflegen die Grünflächen inkl. deren Sträucher, Hecken und Rabatten in zeitnah regelmüssigen Abständen. Diese Umgebungsarbeiten sollen bei Besuchern wie auch den Bewohnern einen erfreulichen positiven Eindruck hinterlassen.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== 2 ? selected = 2 : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">Umgebungspflege</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container2"
+    x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light px-9 pb-5 text-justify">
+        <p>Der klassische Gartenunterhalt präsentiert das Erscheinungsbild Ihrer Liegenschaft. Wir hegen und pflegen die Grünflächen inkl. deren Sträucher, Hecken und Rabatten in zeitnah regelmüssigen Abständen. Diese Umgebungsarbeiten sollen bei Besuchern wie auch den Bewohnern einen erfreulichen positiven Eindruck hinterlassen.</p>
 <p><strong>Unsere Leistungen:</strong></p>
 <ul>
 <li>Unterhalt der Rasenfläche, mähen, düngen und vertikutieren</li>
@@ -276,8 +328,22 @@ pre[class*="language-"] {
 <li>Beseitigung von Laub</li>
 <li>Neuanpflanzungen</li>
 </ul>
-<h2>Räumung &amp; Entsorgung</h2>
-<p>Ganz nach unserem Motto: Lieber trennen, statt alles zu verbrennen.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== 3 ? selected = 3 : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">Räumung und Entsorgung</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container3"
+    x-bind:style="selected == 3 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light px-9 pb-5 text-justify">
+        <p>Ganz nach unserem Motto: Lieber trennen, statt alles zu verbrennen.</p>
 <p>Wir machen uns Stark für Sie und übernehmen Ihre Räumung und deren fachgerechte Entsorgung. Mittels Mulden, Transporter oder Anhänger räumt unser Team Ihre Wohnung, den Keller, die Garage oder sonstige Abstellkammern. Es ist uns Wichtig, einen Beitrag zum Wohle der Gesellschaft und der Umwelt beizutragen.</p>
 <p><strong>Unsere Leistungen:</strong></p>
 <ul>
@@ -288,21 +354,48 @@ pre[class*="language-"] {
 <li>Entsorgung von Aluminium, Altglas, Papier, Karton, PET-Flaschen</li>
 <li>Wahrung des Umweltschutzes</li>
 </ul>
-<p>Wir machen uns Stark für die Räumung von Wohnungen, Kellern und Abstellkammern. Im Weiteren übernehmen wir die fachgerechte Entsorgung.</p>
-<h2>Büro- und Unterhaltsreinigungen</h2>
-<p>Die Visitenkarten jedes Unternehmens sind saubere und gepflegte Räume. Überlassen Sie die täglichen oder wöchentlichen Reinigungsarbeiten unserem Team. Wir führen diese effizient, zuverlässig und fachgerecht aus. Unser Reinigungsservice kann individuell an Ihre Bedürfnisse angepasst werden. Diese Einsätze koordinieren wir zu Zeiten, welche Ihre Arbeitsabläufe nicht beeinträchtigen sollten.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== 4 ? selected = 4 : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">Büro- und Unterhaltsreinigungen</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container4"
+    x-bind:style="selected == 4 ? 'max-height: ' + $refs.container4.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light px-9 pb-5 text-justify">
+        <p>Die Visitenkarten jedes Unternehmens sind saubere und gepflegte Räume. Überlassen Sie die täglichen oder wöchentlichen Reinigungsarbeiten unserem Team. Wir führen diese effizient, zuverlässig und fachgerecht aus. Unser Reinigungsservice kann individuell an Ihre Bedürfnisse angepasst werden. Diese Einsätze koordinieren wir zu Zeiten, welche Ihre Arbeitsabläufe nicht beeinträchtigen sollten.</p>
 <p><strong>Unsere Leistungen:</strong></p>
 <ul>
 <li>Eingangsbereich sauber halten (Erscheinungsbild = 1. Eindruck)</li>
 <li>Saugen und feucht aufnehmen sämtlicher Räume sowie Fensterreinigung</li>
 <li>Abstauben der Bürotische inkl. -Stühle, Computer und deren Monitore</li>
-<li>Abfalleimer leeren, Altpapier /-karton bündeln und entsorgen</li>
+<li>Abfalleimer leeren, Altpapier/-karton bündeln und entsorgen</li>
 <li>Reinigung der Toiletten, Lavabos und Spiegel</li>
 <li>Giessen der Pflanzen</li>
 <li>Berücksichtigung Ihrer weiteren Wünsche</li>
 </ul>
-<h2>Umzugsreinigungen</h2>
-<p>Diese Dienstleistung rundet unseren Service bei Ihrem Umzug ab.<br>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== 5 ? selected = 5 : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">Umzugsreinigungen</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container5"
+    x-bind:style="selected == 5 ? 'max-height: ' + $refs.container5.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light px-9 pb-5 text-justify">
+        <p>Diese Dienstleistung rundet unseren Service bei Ihrem Umzug ab.<br>
 Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten Wohnung verbunden ist, bedeutet dies demzufolge einigen Stress. Machen Sie sich keine Sorgen und lassen Sie die Endreinigung uns erledigen. Wir reinigen so, dass Ihr Vermieter oder Nachmieter Freude an Ihnen haben wird.</p>
 <p><strong>Unsere Leistungen:</strong></p>
 <ul>
@@ -315,6 +408,12 @@ Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten W
 <li>Kellerräume, Garage und Briefkasten inkl. Entfernung der Namensschilder</li>
 <li>Übergabe an die Verwaltung mit Abgabegarantie</li>
 </ul>
+
+      </div>
+    </div>
+  </div>
+
+
 
 
 </article>
@@ -356,8 +455,57 @@ Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten W
 </footer>
     </div>
 
-    <script src="assets/scripts/main.js" defer></script>
+    <script src="/assets/alpine.js" defer></script>
 
 
   </body>
 </html>
+
+
+<script>
+
+  const accordionHeader = document.querySelectorAll(".accordion-header");
+
+  accordionHeader.forEach((header) => {
+    header.addEventListener("click", function () {
+      const accordionContent = header
+        .parentElement
+        .querySelector(".accordion-content");
+      let accordionMaxHeight = accordionContent.style.maxHeight;
+
+      
+
+      // Condition handling
+      if (accordionMaxHeight == "0px" || accordionMaxHeight.length == 0) {
+        accordionContent.style.maxHeight = `${accordionContent.scrollHeight + 32}px`;
+        header
+          .querySelector(".fas")
+          .classList
+          .remove("fa-plus");
+        header
+          .querySelector(".fas")
+          .classList
+          .add("fa-minus");
+        header
+          .parentElement
+          .classList
+          .add("bg-green-50");
+      } else {
+        accordionContent.style.maxHeight = `0px`;
+        header
+          .querySelector(".fas")
+          .classList
+          .add("fa-plus");
+        header
+          .querySelector(".fas")
+          .classList
+          .remove("fa-minus");
+        header
+          .parentElement
+          .classList
+          .remove("bg-green-50");
+      }
+    });
+  });
+
+</script>
