@@ -10,7 +10,7 @@ Die Visitenkarten jedes Unternehmens sind saubere und gepflegte Räume. Überlas
 * Eingangsbereich sauber halten (Erscheinungsbild = 1. Eindruck)
 * Saugen und feucht aufnehmen sämtlicher Räume sowie Fensterreinigung
 * Abstauben der Bürotische inkl. -Stühle, Computer und deren Monitore
-* Abfalleimer leeren, Altpapier /-karton bündeln und entsorgen
+* Abfalleimer leeren, Altpapier/-karton bündeln und entsorgen
 * Reinigung der Toiletten, Lavabos und Spiegel
 * Giessen der Pflanzen
 * Berücksichtigung Ihrer weiteren Wünsche

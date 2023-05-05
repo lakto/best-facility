@@ -1,5 +1,5 @@
 ---
-title: Räumung & Entsorgung
+title: Räumung und Entsorgung
 date: 2023-01-01T00:30:00.000Z
 ---
 
@@ -15,5 +15,3 @@ Wir machen uns Stark für Sie und übernehmen Ihre Räumung und deren fachgerech
 * Trennung von Alteisen, Metall, Kupfer, Elektroschrott, Batterien
 * Entsorgung von Aluminium, Altglas, Papier, Karton, PET-Flaschen
 * Wahrung des Umweltschutzes
-
-Wir machen uns Stark für die Räumung von Wohnungen, Kellern und Abstellkammern. Im Weiteren übernehmen wir die fachgerechte Entsorgung.
