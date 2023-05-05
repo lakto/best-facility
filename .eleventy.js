@@ -28,12 +28,22 @@ module.exports = function (eleventyConfig) {
 		globalClasses: "fill-current"
 	})
 
+	eleventyConfig.addPassthroughCopy({
+		'./node_modules/alpinejs/dist/cdn.min.js': 'assets/alpine.js',
+	})
+
 	/**
 	 * Filters
 	 * @link https://www.11ty.io/docs/filters/
 	 */
 	Object.keys(filters).forEach((filterName) => {
 		eleventyConfig.addFilter(filterName, filters[filterName])
+	})
+
+	eleventyConfig.addFilter("console", async function(value) {
+		// do some Async work
+		// console.log('value', value);
+		return JSON.stringify(value);
 	})
 
 	/**

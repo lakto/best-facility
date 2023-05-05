@@ -1,0 +1,17 @@
+{% for post in collections.post %}
+  <div class="transition hover:bg-green-50 my-4" x-data="{selected:1}">
+    <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
+        @click="selected !== {{ loop.index }} ? selected = {{ loop.index }} : selected = null">
+      <i class="fas fa-plus"></i>
+      <h3 class="py-0">{{ post.data.title }}</h3>
+    </div>
+    
+    <div class="accordion-content relative overflow-hidden transition-all max-h-0 duration-700" x-ref="container{{ loop.index }}"
+    x-bind:style="selected == {{ loop.index }} ? 'max-height: ' + $refs.container{{ loop.index }}.scrollHeight + 'px' : ''">
+      <div class="leading-6 font-light pl-9 pb-4 text-justify">
+        {{ post.templateContent | safe }}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+

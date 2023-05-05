@@ -1,5 +1,5 @@
 const markdownIt = require('markdown-it')
-const svgColorDefault = 'text-indigo-500'
+const svgColorDefault = 'text-green-500'
 
 module.exports = {
 	/**

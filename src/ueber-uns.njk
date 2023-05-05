@@ -1,0 +1,45 @@
+---
+title: Über uns # will be overwritten by SEO.title below
+date: 2020-08-05
+layout: page
+eleventyNavigation:
+  key: main
+  title: Über uns # as it will appear in the nav
+  order: 2 # order to display in the nav
+seo:
+  title: Wir unterhalten und pflegen Ihre Liegenschaft
+ # overrides 'title' above on both Page and META
+  description: 
+  image:
+eleventyImport:
+  collections: ["post"]
+---
+
+<p>
+Die Firma Best Facility GmbH mit Sitz in Aarburg, wurde im Sommer 2018 gegründet. 
+Die klassische Hauswartung und deren technische Betreuung, sowie die Umgebungspflege werden seither laufend ausgebaut. 
+</p>
+<p>
+Wir dürfen mehrere Liegenschafts- und Immobilienverwaltungen sowie Industriebetriebe und ein Tenniscenter zu unseren Kunden zählen.
+</p>
+
+<p>
+Wir bieten unseren Vertragspartnern einen rundum 24-Stunden Pikett-Dienst an, um auf allfällige Vorkommnisse schnellstmöglich zu reagieren.
+</p>
+<!-- Interessieren Sie sich für eine Offerte? Treten Sie mit uns in **[Kontakt](/kontakt)**, wir sind gerne in folgenden Bereichen für Sie da: -->
+<p>
+Als professioneller Hauswartungsbetrieb bieten wir einen kompletten rundum Service in Sachen Reinigung an. Wir pflegen die Werterhaltung und kümmern uns um den Unterhalt, die Sauberkeit sowie die Ordnung des Innen- wie auch des Aussenbereichs Ihrer Immobilie.
+</p>
+Folgendes ist für uns besonders wichtig beim Unterhalt und der Betreuung Ihrer Liegenschaft:
+<ul>
+  <li>Werterhaltung und Optik</li>
+  <li>Sauberkeit und Hygiene</li>
+</ul>
+<p>
+Das Team von Best Facility freut sich, Ihnen zusätzlich mehr Lebenskomfort bieten zu können und einen Beitrag zur Werterhaltung Ihrer Liegenschaft zu leisten.
+</p>
+
+{%- block accordion -%}
+  {%- include "components/accordion.njk" -%}
+{%- endblock -%}
+
