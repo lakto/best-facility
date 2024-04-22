@@ -12,6 +12,7 @@
 {#- General #}
 <meta name="author" content="{{ author or meta.authorName }}" />
 <meta name="description" content="{{ seo.description or excerpt or meta.siteDescription }}" />
+<meta name="keywords" content="{{ meta.siteKeywords }}">
 <link rel="canonical" href="{{ absolutePageUrl }}" />
 {#- Open Graph #}
 <meta property="og:site_name" content="{{ meta.title }}" />

@@ -1,8 +1,8 @@
 module.exports = {
 	siteURL: process.env.URL || 'http://localhost:8080',
-	siteName: "Best Facility GmbH",
-	siteDescription:
-		'Wir unterhalten und pflegen Ihre Liegenschaft',
+	siteName: 'Best Facility GmbH',
+	siteDescription: 'Wir unterhalten und pflegen Ihre Liegenschaft in der Region Aarburg, Olten, Oftringen',
+	siteKeywords: 'Immobilienverwaltung, Facility Management, Hausmeisterdienste, Wartungsdienste, 24-Stunden-Notdienst, Reinigungsdienste, Immobilienpflege, Werterhaltung, Umweltmanagement, Gartenpflege, Rasenpflege, Schneeräumung, Abfallentsorgung, Recyclingdienste, Büroreinigung, Umzugsreinigung, Endreinigung, Wohnungsreinigung, Gewerbereinigung, Übergabereinigung',
 	siteImage: '/assets/images/site/default.png',
 	lang: 'de',
 	locale: 'de_ch',
