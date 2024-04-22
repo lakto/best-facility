@@ -1,5 +1,6 @@
 {# set absolutePageURL to use later in  canonical and og URLs #}
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%}
+{# {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(build.url) }}{%- endset -%} #}
+{% set absolutePageUrl = page.url | url | absoluteUrl(build.url) %}
 {# set image paths here so user/editor doesn't have to deal with full paths #}
 {%- set ogImage -%}
 {% if seo.image %}

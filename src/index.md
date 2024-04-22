@@ -3,7 +3,7 @@
 title: Wir unterhalten und pflegen ihre Liegenschaft
 layout: page
 excerpt: # used for page excerpts and META (will be overwritten if SEO used below)
-author: best-facility # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
+author: Patrick Kilchenmann # only displayed on Post lists and detail views. Defaults to _data/meta.authorURL
 eleventyNavigation: # Required if want to display in Main Nav Bar
   key: main # "main" is required
   title: Willkommen # as it will appear in the nav
