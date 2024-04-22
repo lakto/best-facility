@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Best Facility GmbH</title>
   <subtitle>Wir unterhalten und pflegen Ihre Liegenschaft</subtitle>
-  <link href="http://localhost:8080"/>
-  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <link href="https://bestfacility.ch"/>
+  <link href="https://bestfacility.ch/feed.xml" rel="self"/>
   <updated>2023-01-01T00:50:00Z</updated>
-  <id>http://localhost:8080</id>
+  <id>https://bestfacility.ch</id>
   <author>
     <name>Patrick Kilchenmann</name>
     <email></email>
@@ -13,9 +13,9 @@
     
     <entry>
       <title>Hauswartungen</title>
-      <link href="http://localhost:8080/2023/01/01/hauswartungen/"/>
+      <link href="https://bestfacility.ch/2023/01/01/hauswartungen/"/>
       <updated>2023-01-01T00:10:00Z</updated>
-      <id>http://localhost:8080/2023/01/01/hauswartungen/</id>
+      <id>https://bestfacility.ch/2023/01/01/hauswartungen/</id>
       <content type="html">&lt;p&gt;Die Hauswartung und deren Pflichten erfolgen in der Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Auch bei Notfällen sind wir für Sie 24 Stunden auf Abruf.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -33,9 +33,9 @@
     
     <entry>
       <title>Umgebungspflege</title>
-      <link href="http://localhost:8080/2023/01/01/umgebungspflege/"/>
+      <link href="https://bestfacility.ch/2023/01/01/umgebungspflege/"/>
       <updated>2023-01-01T00:20:00Z</updated>
-      <id>http://localhost:8080/2023/01/01/umgebungspflege/</id>
+      <id>https://bestfacility.ch/2023/01/01/umgebungspflege/</id>
       <content type="html">&lt;p&gt;Der klassische Gartenunterhalt präsentiert das Erscheinungsbild Ihrer Liegenschaft. Wir hegen und pflegen die Grünflächen inkl. deren Sträucher, Hecken und Rabatten in zeitnah regelmüssigen Abständen. Diese Umgebungsarbeiten sollen bei Besuchern wie auch den Bewohnern einen erfreulichen positiven Eindruck hinterlassen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -53,9 +53,9 @@
     
     <entry>
       <title>Räumung und Entsorgung</title>
-      <link href="http://localhost:8080/2023/01/01/raumung-und-entsorgung/"/>
+      <link href="https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/"/>
       <updated>2023-01-01T00:30:00Z</updated>
-      <id>http://localhost:8080/2023/01/01/raumung-und-entsorgung/</id>
+      <id>https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/</id>
       <content type="html">&lt;p&gt;Ganz nach unserem Motto: Lieber trennen, statt alles zu verbrennen.&lt;/p&gt;
 &lt;p&gt;Wir machen uns Stark für Sie und übernehmen Ihre Räumung und deren fachgerechte Entsorgung. Mittels Mulden, Transporter oder Anhänger räumt unser Team Ihre Wohnung, den Keller, die Garage oder sonstige Abstellkammern. Es ist uns Wichtig, einen Beitrag zum Wohle der Gesellschaft und der Umwelt beizutragen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
@@ -72,9 +72,9 @@
     
     <entry>
       <title>Büro- und Unterhaltsreinigungen</title>
-      <link href="http://localhost:8080/2023/01/01/buro-und-unterhaltsreinigungen/"/>
+      <link href="https://bestfacility.ch/2023/01/01/buro-und-unterhaltsreinigungen/"/>
       <updated>2023-01-01T00:40:00Z</updated>
-      <id>http://localhost:8080/2023/01/01/buro-und-unterhaltsreinigungen/</id>
+      <id>https://bestfacility.ch/2023/01/01/buro-und-unterhaltsreinigungen/</id>
       <content type="html">&lt;p&gt;Die Visitenkarten jedes Unternehmens sind saubere und gepflegte Räume. Überlassen Sie die täglichen oder wöchentlichen Reinigungsarbeiten unserem Team. Wir führen diese effizient, zuverlässig und fachgerecht aus. Unser Reinigungsservice kann individuell an Ihre Bedürfnisse angepasst werden. Diese Einsätze koordinieren wir zu Zeiten, welche Ihre Arbeitsabläufe nicht beeinträchtigen sollten.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -91,9 +91,9 @@
     
     <entry>
       <title>Umzugsreinigungen</title>
-      <link href="http://localhost:8080/2023/01/01/umzugsreinigungen/"/>
+      <link href="https://bestfacility.ch/2023/01/01/umzugsreinigungen/"/>
       <updated>2023-01-01T00:50:00Z</updated>
-      <id>http://localhost:8080/2023/01/01/umzugsreinigungen/</id>
+      <id>https://bestfacility.ch/2023/01/01/umzugsreinigungen/</id>
       <content type="html">&lt;p&gt;Diese Dienstleistung rundet unseren Service bei Ihrem Umzug ab.&lt;br /&gt;
 Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten Wohnung verbunden ist, bedeutet dies demzufolge einigen Stress. Machen Sie sich keine Sorgen und lassen Sie die Endreinigung uns erledigen. Wir reinigen so, dass Ihr Vermieter oder Nachmieter Freude an Ihnen haben wird.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
