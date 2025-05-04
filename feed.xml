@@ -4,7 +4,7 @@
   <subtitle>Wir unterhalten und pflegen Ihre Liegenschaft in der Region Aarburg, Olten, Oftringen, im Bezirk Zofingen.</subtitle>
   <link href="https://bestfacility.ch"/>
   <link href="https://bestfacility.ch/feed.xml" rel="self"/>
-  <updated>2023-01-01T00:50:00Z</updated>
+  <updated>2023-01-01T00:40:00Z</updated>
   <id>https://bestfacility.ch</id>
   <author>
     <name>Patrick Kilchenmann</name>
@@ -16,15 +16,21 @@
       <link href="https://bestfacility.ch/2023/01/01/hauswartungen/"/>
       <updated>2023-01-01T00:10:00Z</updated>
       <id>https://bestfacility.ch/2023/01/01/hauswartungen/</id>
-      <content type="html">&lt;p&gt;Die Hauswartung und deren Pflichten erfolgen in der Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Auch bei Notfällen sind wir für Sie 24 Stunden auf Abruf.&lt;/p&gt;
+      <content type="html">&lt;p&gt;Die Hauswartung im Innen- und Aussenbereich sowie deren Pflichten erfolgen in der&lt;br /&gt;
+Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren&lt;br /&gt;
+Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder&lt;br /&gt;
+die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren&lt;br /&gt;
+diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Bei Notfällen sind&lt;br /&gt;
+wir für Sie 24 Stunden erreichbar.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Hauswartung- und Reinigungsarbeiten im Innen- und Aussenbereich&lt;br /&gt;
-(inkl. Keller, technischen Räumen, der Einstellhalle und den Besucher-Parkplätzen)&lt;/li&gt;
-&lt;li&gt;Betreuung von technischen Anlagen (z.B. Heizungen oder Entkalkungsanlagen)&lt;/li&gt;
-&lt;li&gt;Ausführung kleiner Reparaturen sowie Instandhaltung&lt;/li&gt;
+&lt;li&gt;Allgemeine Reinigungsarbeiten, saugen und feucht aufnehmen sämtlicher Räume&lt;br /&gt;
+inkl. Keller sowie abstauben in den technischen Räumen und der Einstellhallen&lt;/li&gt;
+&lt;li&gt;Eingangsbereich, Treppenhäuser und Fenster kontrollieren und sauber halten&lt;/li&gt;
+&lt;li&gt;Betreuung der technischen Anlagen (wie Heizungen, oder Entkalkungsanlagen)&lt;/li&gt;
+&lt;li&gt;Ausführung kleiner Reparaturen sowie Instandhaltungsarbeiten&lt;/li&gt;
 &lt;li&gt;Koordination mit Handwerkern und Lieferanten&lt;/li&gt;
-&lt;li&gt;Kontrolle der Zählstände von Wasser, Heizöl, etc.&lt;/li&gt;
+&lt;li&gt;Kontrolle (periodisch) der Zählstände von Wasser, Heizöl, etc.&lt;/li&gt;
 &lt;li&gt;Winterdienst (Schneeräumung, Streueinsätze)&lt;/li&gt;
 &lt;li&gt;24 Stunden Pikettdienst&lt;/li&gt;
 &lt;/ul&gt;
@@ -36,9 +42,14 @@
       <link href="https://bestfacility.ch/2023/01/01/umgebungspflege/"/>
       <updated>2023-01-01T00:20:00Z</updated>
       <id>https://bestfacility.ch/2023/01/01/umgebungspflege/</id>
-      <content type="html">&lt;p&gt;Der klassische Gartenunterhalt präsentiert das Erscheinungsbild Ihrer Liegenschaft. Wir hegen und pflegen die Grünflächen inkl. deren Sträucher, Hecken und Rabatten in zeitnah regelmüssigen Abständen. Diese Umgebungsarbeiten sollen bei Besuchern wie auch den Bewohnern einen erfreulichen positiven Eindruck hinterlassen.&lt;/p&gt;
+      <content type="html">&lt;p&gt;Der klassische Gartenunterhalt präsentiert das Erscheinungsbild Ihrer Liegenschaft. Wir&lt;br /&gt;
+hegen und pflegen die Grünflächen inkl. deren Sträucher, Hecken und Rabatten in zeitnah&lt;br /&gt;
+regelmüssigen Abständen. Diese Umgebungsarbeiten werden den Jahreszeiten gerecht&lt;br /&gt;
+angepasst und sollen bei Besuchern wie auch den Bewohnern einen erfreulichen sowie&lt;br /&gt;
+positiven Eindruck hinterlassen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Kontrolle der Umgebung (Littering beseitigen)&lt;/li&gt;
 &lt;li&gt;Unterhalt der Rasenfläche, mähen, düngen und vertikutieren&lt;/li&gt;
 &lt;li&gt;Pflegen und jäten von Rabatten&lt;/li&gt;
 &lt;li&gt;Sommer- und Winterschnitt von Sträuchern und Hecken&lt;/li&gt;
@@ -46,45 +57,7 @@
 &lt;li&gt;Rasenschnitt und Grüngut zur Abfuhr mitnehmen / bereitstellen&lt;/li&gt;
 &lt;li&gt;Bekämpfung von Unkraut und Ungeziefer&lt;/li&gt;
 &lt;li&gt;Beseitigung von Laub&lt;/li&gt;
-&lt;li&gt;Neuanpflanzungen&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-      <title>Räumung und Entsorgung</title>
-      <link href="https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/"/>
-      <updated>2023-01-01T00:30:00Z</updated>
-      <id>https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/</id>
-      <content type="html">&lt;p&gt;Ganz nach unserem Motto: Lieber trennen, statt alles zu verbrennen.&lt;/p&gt;
-&lt;p&gt;Wir machen uns Stark für Sie und übernehmen Ihre Räumung und deren fachgerechte Entsorgung. Mittels Mulden, Transporter oder Anhänger räumt unser Team Ihre Wohnung, den Keller, die Garage oder sonstige Abstellkammern. Es ist uns Wichtig, einen Beitrag zum Wohle der Gesellschaft und der Umwelt beizutragen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Räumung von Zimmer, Mansarden, Wohnungen&lt;/li&gt;
-&lt;li&gt;Ausmisten von Kellerräumen, Abstellkammern, Garagen&lt;/li&gt;
-&lt;li&gt;Abfuhr von Holz, Möbeln, Plastik, Pneus, Styropor&lt;/li&gt;
-&lt;li&gt;Trennung von Alteisen, Metall, Kupfer, Elektroschrott, Batterien&lt;/li&gt;
-&lt;li&gt;Entsorgung von Aluminium, Altglas, Papier, Karton, PET-Flaschen&lt;/li&gt;
-&lt;li&gt;Wahrung des Umweltschutzes&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-      <title>Büro- und Unterhaltsreinigungen</title>
-      <link href="https://bestfacility.ch/2023/01/01/buro-und-unterhaltsreinigungen/"/>
-      <updated>2023-01-01T00:40:00Z</updated>
-      <id>https://bestfacility.ch/2023/01/01/buro-und-unterhaltsreinigungen/</id>
-      <content type="html">&lt;p&gt;Die Visitenkarten jedes Unternehmens sind saubere und gepflegte Räume. Überlassen Sie die täglichen oder wöchentlichen Reinigungsarbeiten unserem Team. Wir führen diese effizient, zuverlässig und fachgerecht aus. Unser Reinigungsservice kann individuell an Ihre Bedürfnisse angepasst werden. Diese Einsätze koordinieren wir zu Zeiten, welche Ihre Arbeitsabläufe nicht beeinträchtigen sollten.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eingangsbereich sauber halten (Erscheinungsbild = 1. Eindruck)&lt;/li&gt;
-&lt;li&gt;Saugen und feucht aufnehmen sämtlicher Räume sowie Fensterreinigung&lt;/li&gt;
-&lt;li&gt;Abstauben der Bürotische inkl. -Stühle, Computer und deren Monitore&lt;/li&gt;
-&lt;li&gt;Abfalleimer leeren, Altpapier/-karton bündeln und entsorgen&lt;/li&gt;
-&lt;li&gt;Reinigung der Toiletten, Lavabos und Spiegel&lt;/li&gt;
-&lt;li&gt;Giessen der Pflanzen&lt;/li&gt;
-&lt;li&gt;Berücksichtigung Ihrer weiteren Wünsche&lt;/li&gt;
+&lt;li&gt;Betreuung der Besucherparkplätze&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
@@ -92,10 +65,13 @@
     <entry>
       <title>Umzugsreinigungen</title>
       <link href="https://bestfacility.ch/2023/01/01/umzugsreinigungen/"/>
-      <updated>2023-01-01T00:50:00Z</updated>
+      <updated>2023-01-01T00:30:00Z</updated>
       <id>https://bestfacility.ch/2023/01/01/umzugsreinigungen/</id>
       <content type="html">&lt;p&gt;Diese Dienstleistung rundet unseren Service bei Ihrem Umzug ab.&lt;br /&gt;
-Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten Wohnung verbunden ist, bedeutet dies demzufolge einigen Stress. Machen Sie sich keine Sorgen und lassen Sie die Endreinigung uns erledigen. Wir reinigen so, dass Ihr Vermieter oder Nachmieter Freude an Ihnen haben wird.&lt;/p&gt;
+Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten&lt;br /&gt;
+Wohnung verbunden ist, bedeutet dies demzufolge einigen Stress. Machen Sie sich keine&lt;br /&gt;
+Sorgen und lassen Sie die Endreinigung uns erledigen. Wir reinigen so, dass Ihr&lt;br /&gt;
+Vermieter oder Nachmieter Freude an Ihnen haben wird.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Küche mit Backofen, Kühlschrank, Geschirrwaschmaschine, etc.&lt;/li&gt;
@@ -104,8 +80,30 @@ Da ein Umzug mit anstrengender und unangenehmer Arbeit, das Reinigen der alten W
 &lt;li&gt;Zimmer, Flur, Einbauschränke, Türen, Heizkörper, etc.&lt;/li&gt;
 &lt;li&gt;Reinigung aller Bodenbeläge (Fliesen, Laminat, Parkett oder Teppich)&lt;/li&gt;
 &lt;li&gt;Balkon, bzw. Gartensitzplatz inkl. Sonnenstoren soweit möglich&lt;/li&gt;
-&lt;li&gt;Kellerräume, Garage und Briefkasten inkl. Entfernung der Namensschilder&lt;/li&gt;
+&lt;li&gt;Kellerräume, Garage und Briefkasten inkl. Entfernung der Namens-schilder&lt;/li&gt;
 &lt;li&gt;Übergabe an die Verwaltung mit Abgabegarantie&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
+    
+    <entry>
+      <title>Räumung und Entsorgung</title>
+      <link href="https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/"/>
+      <updated>2023-01-01T00:40:00Z</updated>
+      <id>https://bestfacility.ch/2023/01/01/raumung-und-entsorgung/</id>
+      <content type="html">&lt;p&gt;Ganz nach unserem Motto: Lieber trennen, statt alles zu verbrennen.&lt;/p&gt;
+&lt;p&gt;Wir machen uns Stark für Sie und übernehmen Ihre Räumung und deren fachgerechte&lt;br /&gt;
+Entsorgung. Mittels Mulden, Transporter oder Anhänger räumt unser Team Ihre&lt;br /&gt;
+Wohnung, den Keller, die Garage oder sonstige Abstellkammern. Es ist uns Wichtig, einen&lt;br /&gt;
+Beitrag zum Wohle der Gesellschaft und der Umwelt beizutragen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unsere Leistungen:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Räumung von Zimmer, Mansarden, Wohnungen&lt;/li&gt;
+&lt;li&gt;Ausmisten von Kellerräumen, Abstellkammern, Garagen&lt;/li&gt;
+&lt;li&gt;Abfuhr von Holz, Möbeln, Plastik, Pneus, Styropor&lt;/li&gt;
+&lt;li&gt;Trennung von Alteisen, Metall, Kupfer, Elektroschrott, Batterien&lt;/li&gt;
+&lt;li&gt;Entsorgung von Aluminium, Altglas, Papier, Karton, Pet-Flaschen&lt;/li&gt;
+&lt;li&gt;Wahrung des Umweltschutzes&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
