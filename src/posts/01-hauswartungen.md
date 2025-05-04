@@ -3,15 +3,21 @@ title: Hauswartungen
 date: 2023-01-01T00:10:00.000Z
 ---
 
-Die Hauswartung und deren Pflichten erfolgen in der Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Auch bei Notfällen sind wir für Sie 24 Stunden auf Abruf.
+Die Hauswartung im Innen- und Aussenbereich sowie deren Pflichten erfolgen in der
+Regel wöchentlich. Bei speziellen Bedürfnissen Ihrerseits passen wir dies gerne Ihren
+Ansprüchen je nach Bedarf an. Zudem kümmern wir uns auch um die Tiefgarage oder
+die technischen Anlagen. Machen Sie sich keine Sorgen, wir betreuen und kontrollieren
+diese Objekte bei der Ausführung unserer Dienstleistungen vor Ort. Bei Notfällen sind
+wir für Sie 24 Stunden erreichbar.
 
 **Unsere Leistungen:**
 
-* Hauswartung- und Reinigungsarbeiten im Innen- und Aussenbereich
-(inkl. Keller, technischen Räumen, der Einstellhalle und den Besucher-Parkplätzen)
-* Betreuung von technischen Anlagen (z.B. Heizungen oder Entkalkungsanlagen)
-* Ausführung kleiner Reparaturen sowie Instandhaltung
+* Allgemeine Reinigungsarbeiten, saugen und feucht aufnehmen sämtlicher Räume
+inkl. Keller sowie abstauben in den technischen Räumen und der Einstellhallen
+* Eingangsbereich, Treppenhäuser und Fenster kontrollieren und sauber halten
+* Betreuung der technischen Anlagen (wie Heizungen, oder Entkalkungsanlagen)
+* Ausführung kleiner Reparaturen sowie Instandhaltungsarbeiten
 * Koordination mit Handwerkern und Lieferanten
-* Kontrolle der Zählstände von Wasser, Heizöl, etc.
+* Kontrolle (periodisch) der Zählstände von Wasser, Heizöl, etc.
 * Winterdienst (Schneeräumung, Streueinsätze)
 * 24 Stunden Pikettdienst
