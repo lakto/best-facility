@@ -37,29 +37,29 @@ module.exports = {
 	 */
 	navDefault: {
 		barBg: 'bg-white',
-		text: 'text-fuchsia-500',
-		textActive: 'text-fuchsia-600',
-		textHover: 'text-fuchsia-600',
-		textActiveBg: 'bg-fuchsia-100',
-		textFocus: 'text-fuchsia-500',
+		text: 'text-orange-500',
+		textActive: 'text-orange-600',
+		textHover: 'text-orange-600',
+		textActiveBg: 'bg-orange-100',
+		textFocus: 'text-orange-500',
 		mobileBg: '',
-		mobileBgActive: 'bg-fuchsia-700',
-		mobileBgHover: 'bg-fuchsia-100',
-		mobileBgFocus: 'bg-fuchsia-300',
-		mobileText: 'text-fuchsia-500',
-		mobileTextActive: 'text-fuchsia-300',
-		mobileTextHover: 'text-fuchsia-600',
-		mobileTextFocus: 'text-fuchsia-700',
-		mobileButton: 'text-fuchsia-500',
-		mobileButtonHover: 'text-fuchsia-600',
-		mobileButtonBgHover: 'bg-fuchsia-100',
+		mobileBgActive: 'bg-orange-700',
+		mobileBgHover: 'bg-orange-100',
+		mobileBgFocus: 'bg-orange-300',
+		mobileText: 'text-orange-500',
+		mobileTextActive: 'text-orange-300',
+		mobileTextHover: 'text-orange-600',
+		mobileTextFocus: 'text-orange-700',
+		mobileButton: 'text-orange-500',
+		mobileButtonHover: 'text-orange-600',
+		mobileButtonBgHover: 'bg-orange-100',
 	},
 	/**
 	 *  NOTE: You MUST keep all Custom variable keys, even if their values are empty and you don't intend to use them.
 	 *  If you delete any variable keys, 11ty won't work.
 	 */
 	navCustom: {
-		barBg: 'bg-green-600',
+		barBg: 'bg-gray-600',
 		text: 'text-white',
 		textActive: 'text-gray-800',
 		textHover: 'text-gray-800',
@@ -67,8 +67,8 @@ module.exports = {
 		textFocus: 'text-gray-500',
 		mobileBg: '',
 		mobileBgActive: 'bg-white',
-		mobileBgHover: 'bg-green-200',
-		mobileBgFocus: 'bg-green-950',
+		mobileBgHover: 'bg-gray-200',
+		mobileBgFocus: 'bg-gray-950',
 		mobileText: 'text-white',
 		mobileTextActive: 'text-gray-800',
 		mobileTextHover: 'text-gray-800',
@@ -82,9 +82,9 @@ module.exports = {
 	 * ===== Logo / SVG =====
 	 */
 	logoDefault: {
-		desktop: 'text-fuchsia-500',
-		mobile: 'text-fuchsia-500',
-		hover: 'text-fuchsia-600',
+		desktop: 'text-orange-500',
+		mobile: 'text-orange-500',
+		hover: 'text-orange-600',
 	},
 	logoCustom: {
 		desktop: 'text-gray-700',
@@ -99,7 +99,7 @@ module.exports = {
 	 * For content headings added by Editors in .md files,
 	 * manage those in /src/assets/css/tailwind.css
 	 */
-	headingsDefault: 'text-fuchsia-500',
+	headingsDefault: 'text-orange-500',
 	headingsCustom: 'text-gray-700',
 
 	/**
@@ -149,9 +149,9 @@ module.exports = {
 	buttonDefault: {
 		text: 'text-white',
 		textHover: 'text-white',
-		bg: 'bg-fuchsia-600',
-		bgHover: 'bg-fuchsia-700',
-		border: 'border-fuchsia-900',
+		bg: 'bg-orange-600',
+		bgHover: 'bg-orange-700',
+		border: 'border-orange-900',
 	},
 	buttonCustom: {
 		text: '',
@@ -231,7 +231,7 @@ module.exports = {
 	 */
 	footerDefault: {
 		barBg: 'bg-white',
-		text: 'text-fuchsia-500',
+		text: 'text-orange-500',
 	},
 	footerCustom: {
 		barBg: 'bg-gray-900',
@@ -242,8 +242,8 @@ module.exports = {
 	 * === Footer social icons
 	 * Manage the Author social icons above in the Author section
 	 */
-	socialIconsDefault: 'text-fuchsia-400',
-	socialIconsHoverDefault: 'text-fuchsia-500',
+	socialIconsDefault: 'text-orange-400',
+	socialIconsHoverDefault: 'text-orange-500',
 
 	socialIconsCustom: 'text-gray-100',
 	socialIconsHoverCustom: 'text-gray-200',
