@@ -1,5 +1,5 @@
 {% for post in collections.post %}
-  <div class="transition hover:bg-green-50 my-4" x-data="{selected:0}">
+  <div class="transition hover:bg-gray-50 my-4" x-data="{selected:0}">
     <div class="accordion-header cursor-pointer transition flex space-x-5 px-5 items-center h-16" 
         @click="selected !== {{ loop.index }} ? selected = {{ loop.index }} : selected = 0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"
